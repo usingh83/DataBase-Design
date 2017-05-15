@@ -1,0 +1,63 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+/* 
+linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) used to fade images
+*/
+
+.homepage-background {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.other-pages-background {
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../images/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+/*
+center align text on homepage
+*/
+.text-center-align {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 20%;
+	line-height: 55px;
+	z-index: 0;
+}
+
+/*
+custom buttons
+*/
+.custom-button {
+	display: inline-block !important;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 13px 35px 13px 35px;
+	border-radius: 4px;
+	margin: 10px;
+	border: none;
+}
+
+.buttons-center-align {
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 45px;
+}
+
+.table-center-align
+{
+  margin: 0 auto !important;
+  float: none !important;
+}
